@@ -1,0 +1,54 @@
+# {{ project_name }}
+
+![CI/CD Automation](https://github.com/OWNER/REPO/actions/workflows/ci-cd.yml/badge.svg)
+![Repository Automation](https://github.com/OWNER/REPO/actions/workflows/repo-automation.yml/badge.svg)
+
+## Auto-Generated Documentation
+This repository is self-documenting. The structural analysis, diagrams, and README are updated automatically via GitHub Actions and AI Agents.
+
+## Technology Stack
+
+### Languages
+{% for lang in languages %}
+- {{ lang }}
+{% else %}
+No languages detected.
+{% endfor %}
+
+### Frameworks & Libraries
+{% for framework in frameworks %}
+- {{ framework }}
+{% else %}
+No primary frameworks detected.
+{% endfor %}
+
+## Repository Structure
+```
+{% for dir in directories %}
+📁 {{ dir }}
+{% else %}
+No significant directories found.
+{% endfor %}
+```
+
+## Environment Variables
+The following environment variables are detected as being used:
+{% for var in env_vars %}
+- `{{ var }}`
+{% else %}
+None explicitly detected.
+{% endfor %}
+
+## Architecture & Dependencies
+The following diagram is automatically generated from the codebase:
+
+{{ dependency_graph }}
+
+## Setup Instructions
+1. Clone the repository.
+2. Install the necessary dependencies based on the languages and frameworks listed above.
+3. Configure the environment variables.
+4. Run the appropriate start command for your framework.
+
+## Contribution
+Please refer to the open issues and pull requests. AI Agents will assist with documentation updates on your PRs.

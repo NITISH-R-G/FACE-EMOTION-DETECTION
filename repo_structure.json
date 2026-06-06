@@ -1,0 +1,29 @@
+{
+  "directories": [
+    "scripts"
+  ],
+  "files": [
+    "repo_structure.json",
+    "requirements.txt",
+    "knowledge_graph.json",
+    "README.md",
+    "scripts/repo_analyzer.py",
+    "scripts/diagram_generator.py",
+    "scripts/ai_docs_agent.py",
+    "scripts/readme_generator.py",
+    "scripts/knowledge_graph.py"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "frameworks": [
+    "Express",
+    "Django",
+    "React",
+    "FastAPI",
+    "Flask"
+  ],
+  "env_vars": [
+    "OPENAI_API_KEY"
+  ]
+}
