@@ -4,24 +4,24 @@
   ],
   "files": [
     "repo_structure.json",
+    "README.md",
     "requirements.txt",
     "knowledge_graph.json",
-    "README.md",
-    "scripts/readme_generator.py",
     "scripts/ai_docs_agent.py",
-    "scripts/diagram_generator.py",
+    "scripts/readme_generator.py",
+    "scripts/knowledge_graph.py",
     "scripts/repo_analyzer.py",
-    "scripts/knowledge_graph.py"
+    "scripts/diagram_generator.py"
   ],
   "languages": [
     "Python"
   ],
   "frameworks": [
-    "Express",
-    "React",
+    "Flask",
     "Django",
     "FastAPI",
-    "Flask"
+    "Express",
+    "React"
   ],
   "env_vars": [
     "OPENAI_API_KEY"
