@@ -15,7 +15,7 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 ### Frameworks & Libraries
 
-- Flask
+- Express
 
 - FastAPI
 
@@ -23,7 +23,7 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 - React
 
-- Express
+- Flask
 
 
 ## Repository Structure
