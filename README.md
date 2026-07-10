@@ -15,7 +15,7 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 ### Frameworks & Libraries
 
-- Flask
+- Django
 
 - FastAPI
 
@@ -23,7 +23,7 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 - React
 
-- Django
+- Flask
 
 
 ## Repository Structure
