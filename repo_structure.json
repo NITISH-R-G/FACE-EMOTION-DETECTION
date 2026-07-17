@@ -3,25 +3,25 @@
     "scripts"
   ],
   "files": [
-    "repo_structure.json",
     "README.md",
-    "requirements.txt",
+    "repo_structure.json",
     "knowledge_graph.json",
+    "requirements.txt",
     "scripts/ai_docs_agent.py",
-    "scripts/readme_generator.py",
     "scripts/knowledge_graph.py",
-    "scripts/repo_analyzer.py",
-    "scripts/diagram_generator.py"
+    "scripts/readme_generator.py",
+    "scripts/diagram_generator.py",
+    "scripts/repo_analyzer.py"
   ],
   "languages": [
     "Python"
   ],
   "frameworks": [
     "Flask",
+    "FastAPI",
     "React",
-    "Django",
     "Express",
-    "FastAPI"
+    "Django"
   ],
   "env_vars": [
     "OPENAI_API_KEY"
