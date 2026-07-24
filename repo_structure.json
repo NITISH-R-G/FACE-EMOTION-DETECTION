@@ -17,9 +17,9 @@
     "Python"
   ],
   "frameworks": [
-    "Express",
-    "Flask",
     "FastAPI",
+    "Flask",
+    "Express",
     "React",
     "Django"
   ],
