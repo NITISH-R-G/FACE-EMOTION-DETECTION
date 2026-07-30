@@ -18,10 +18,10 @@
   ],
   "frameworks": [
     "FastAPI",
+    "Flask",
     "Django",
-    "Express",
     "React",
-    "Flask"
+    "Express"
   ],
   "env_vars": [
     "OPENAI_API_KEY"
