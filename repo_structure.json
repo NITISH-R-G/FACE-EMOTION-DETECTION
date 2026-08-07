@@ -4,14 +4,14 @@
   ],
   "files": [
     "requirements.txt",
+    "README.md",
     "knowledge_graph.json",
     "repo_structure.json",
-    "README.md",
+    "scripts/ai_docs_agent.py",
     "scripts/repo_analyzer.py",
     "scripts/diagram_generator.py",
     "scripts/knowledge_graph.py",
-    "scripts/readme_generator.py",
-    "scripts/ai_docs_agent.py"
+    "scripts/readme_generator.py"
   ],
   "languages": [
     "Python"
@@ -19,8 +19,8 @@
   "frameworks": [
     "Express",
     "Django",
-    "FastAPI",
     "Flask",
+    "FastAPI",
     "React"
   ],
   "env_vars": [

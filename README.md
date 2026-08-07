@@ -19,9 +19,9 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 - Django
 
-- FastAPI
-
 - Flask
+
+- FastAPI
 
 - React
 
@@ -44,10 +44,12 @@ The following diagram is automatically generated from the codebase:
 
 ```mermaid
 graph TD;
-    scripts_repo_analyzer["scripts.repo_analyzer"];
-    click scripts_repo_analyzer "scripts/repo_analyzer.py" "View source";
+    scripts_ai_docs_agent["scripts.ai_docs_agent"];
+    click scripts_ai_docs_agent "scripts/ai_docs_agent.py" "View source";
     os["os"];
     json["json"];
+    scripts_repo_analyzer["scripts.repo_analyzer"];
+    click scripts_repo_analyzer "scripts/repo_analyzer.py" "View source";
     re["re"];
     scripts_diagram_generator["scripts.diagram_generator"];
     click scripts_diagram_generator "scripts/diagram_generator.py" "View source";
@@ -56,8 +58,8 @@ graph TD;
     scripts_readme_generator["scripts.readme_generator"];
     click scripts_readme_generator "scripts/readme_generator.py" "View source";
     jinja2["jinja2"];
-    scripts_ai_docs_agent["scripts.ai_docs_agent"];
-    click scripts_ai_docs_agent "scripts/ai_docs_agent.py" "View source";
+    scripts_ai_docs_agent --> os;
+    scripts_ai_docs_agent --> json;
     scripts_repo_analyzer --> os;
     scripts_repo_analyzer --> json;
     scripts_repo_analyzer --> re;
@@ -69,8 +71,6 @@ graph TD;
     scripts_readme_generator --> json;
     scripts_readme_generator --> os;
     scripts_readme_generator --> jinja2;
-    scripts_ai_docs_agent --> os;
-    scripts_ai_docs_agent --> json;
 ```
 
 
