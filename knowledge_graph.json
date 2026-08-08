@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "scripts.ai_docs_agent",
+      "id": "scripts.repo_analyzer",
       "type": "module"
     },
     {
@@ -11,10 +11,6 @@
     {
       "id": "json",
       "type": "dependency"
-    },
-    {
-      "id": "scripts.repo_analyzer",
-      "type": "module"
     },
     {
       "id": "re",
@@ -35,19 +31,13 @@
     {
       "id": "jinja2",
       "type": "dependency"
+    },
+    {
+      "id": "scripts.ai_docs_agent",
+      "type": "module"
     }
   ],
   "edges": [
-    {
-      "source": "scripts.ai_docs_agent",
-      "target": "os",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.ai_docs_agent",
-      "target": "json",
-      "relation": "imports"
-    },
     {
       "source": "scripts.repo_analyzer",
       "target": "os",
@@ -101,6 +91,16 @@
     {
       "source": "scripts.readme_generator",
       "target": "jinja2",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.ai_docs_agent",
+      "target": "os",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.ai_docs_agent",
+      "target": "json",
       "relation": "imports"
     }
   ]
