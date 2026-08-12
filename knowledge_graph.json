@@ -1,28 +1,16 @@
 {
   "nodes": [
     {
-      "id": "scripts.repo_analyzer",
+      "id": "scripts.diagram_generator",
       "type": "module"
-    },
-    {
-      "id": "os",
-      "type": "dependency"
     },
     {
       "id": "json",
       "type": "dependency"
     },
     {
-      "id": "re",
+      "id": "os",
       "type": "dependency"
-    },
-    {
-      "id": "scripts.diagram_generator",
-      "type": "module"
-    },
-    {
-      "id": "scripts.knowledge_graph",
-      "type": "module"
     },
     {
       "id": "scripts.readme_generator",
@@ -33,27 +21,24 @@
       "type": "dependency"
     },
     {
+      "id": "scripts.knowledge_graph",
+      "type": "module"
+    },
+    {
+      "id": "re",
+      "type": "dependency"
+    },
+    {
       "id": "scripts.ai_docs_agent",
+      "type": "module"
+    },
+    {
+      "id": "scripts.repo_analyzer",
       "type": "module"
     }
   ],
   "edges": [
     {
-      "source": "scripts.repo_analyzer",
-      "target": "os",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.repo_analyzer",
-      "target": "json",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.repo_analyzer",
-      "target": "re",
-      "relation": "imports"
-    },
-    {
       "source": "scripts.diagram_generator",
       "target": "json",
       "relation": "imports"
@@ -61,21 +46,6 @@
     {
       "source": "scripts.diagram_generator",
       "target": "os",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.knowledge_graph",
-      "target": "os",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.knowledge_graph",
-      "target": "json",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.knowledge_graph",
-      "target": "re",
       "relation": "imports"
     },
     {
@@ -94,6 +64,21 @@
       "relation": "imports"
     },
     {
+      "source": "scripts.knowledge_graph",
+      "target": "os",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.knowledge_graph",
+      "target": "json",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.knowledge_graph",
+      "target": "re",
+      "relation": "imports"
+    },
+    {
       "source": "scripts.ai_docs_agent",
       "target": "os",
       "relation": "imports"
@@ -101,6 +86,21 @@
     {
       "source": "scripts.ai_docs_agent",
       "target": "json",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.repo_analyzer",
+      "target": "os",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.repo_analyzer",
+      "target": "json",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.repo_analyzer",
+      "target": "re",
       "relation": "imports"
     }
   ]
