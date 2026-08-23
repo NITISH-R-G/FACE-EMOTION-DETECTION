@@ -17,13 +17,13 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 - Flask
 
-- React
-
 - Express
 
-- Django
-
 - FastAPI
+
+- React
+
+- Django
 
 
 ## Repository Structure
