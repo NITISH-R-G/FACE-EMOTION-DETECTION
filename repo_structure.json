@@ -17,11 +17,11 @@
     "Python"
   ],
   "frameworks": [
-    "React",
     "Flask",
+    "Django",
     "Express",
     "FastAPI",
-    "Django"
+    "React"
   ],
   "env_vars": [
     "OPENAI_API_KEY"
