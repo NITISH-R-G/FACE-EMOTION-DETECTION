@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "scripts.knowledge_graph",
+      "id": "scripts.ai_docs_agent",
       "type": "module"
     },
     {
@@ -13,7 +13,11 @@
       "type": "dependency"
     },
     {
-      "id": "re",
+      "id": "scripts.readme_generator",
+      "type": "module"
+    },
+    {
+      "id": "jinja2",
       "type": "dependency"
     },
     {
@@ -25,57 +29,23 @@
       "type": "module"
     },
     {
-      "id": "scripts.readme_generator",
-      "type": "module"
-    },
-    {
-      "id": "jinja2",
+      "id": "re",
       "type": "dependency"
     },
     {
-      "id": "scripts.ai_docs_agent",
+      "id": "scripts.knowledge_graph",
       "type": "module"
     }
   ],
   "edges": [
     {
-      "source": "scripts.knowledge_graph",
+      "source": "scripts.ai_docs_agent",
       "target": "os",
       "relation": "imports"
     },
     {
-      "source": "scripts.knowledge_graph",
+      "source": "scripts.ai_docs_agent",
       "target": "json",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.knowledge_graph",
-      "target": "re",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.diagram_generator",
-      "target": "json",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.diagram_generator",
-      "target": "os",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.repo_analyzer",
-      "target": "os",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.repo_analyzer",
-      "target": "json",
-      "relation": "imports"
-    },
-    {
-      "source": "scripts.repo_analyzer",
-      "target": "re",
       "relation": "imports"
     },
     {
@@ -94,13 +64,43 @@
       "relation": "imports"
     },
     {
-      "source": "scripts.ai_docs_agent",
+      "source": "scripts.diagram_generator",
+      "target": "json",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.diagram_generator",
       "target": "os",
       "relation": "imports"
     },
     {
-      "source": "scripts.ai_docs_agent",
+      "source": "scripts.repo_analyzer",
+      "target": "os",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.repo_analyzer",
       "target": "json",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.repo_analyzer",
+      "target": "re",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.knowledge_graph",
+      "target": "os",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.knowledge_graph",
+      "target": "json",
+      "relation": "imports"
+    },
+    {
+      "source": "scripts.knowledge_graph",
+      "target": "re",
       "relation": "imports"
     }
   ]
