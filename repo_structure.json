@@ -19,8 +19,8 @@
   "frameworks": [
     "Express",
     "React",
-    "FastAPI",
     "Django",
+    "FastAPI",
     "Flask"
   ],
   "env_vars": [
