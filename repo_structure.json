@@ -17,10 +17,10 @@
     "Python"
   ],
   "frameworks": [
-    "React",
-    "Django",
     "FastAPI",
+    "Django",
     "Express",
+    "React",
     "Flask"
   ],
   "env_vars": [
