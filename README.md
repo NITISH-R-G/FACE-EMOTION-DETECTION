@@ -15,15 +15,15 @@ This repository is self-documenting. The structural analysis, diagrams, and READ
 
 ### Frameworks & Libraries
 
+- React
+
 - Express
 
 - Flask
 
-- React
+- FastAPI
 
 - Django
-
-- FastAPI
 
 
 ## Repository Structure
